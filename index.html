@@ -151,12 +151,11 @@ transform:translateY(-5px);
 
 /* 🔥 AQUI ESTÁ A CORREÇÃO */
 .card img{
-width:100%;
-height:220px;
-object-fit:auto;   /* <<< IMAGEM INTEIRA */
-background:#000;      /* fundo elegante */
-padding:10px;
-display:block;
+  width: 100%;
+  aspect-ratio: 3 / 4;   /* formato retrato */
+  object-fit: contain;   /* ou cover se quiser preencher */
+  background: #000;
+  display: block;
 }
 
 .card p{
