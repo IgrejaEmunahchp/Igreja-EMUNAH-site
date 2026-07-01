@@ -1,1 +1,62 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Igreja EMUNAH</title><link rel="stylesheet" href="style.css"></head><body><header class='hero'><h1>Igreja EMUNAH</h1><a class='btn' href='#'>Bem-vindo</a></header><script src="script.js"></script>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Igreja EMUNAH</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero">
+<div class="overlay">
+<h1>Igreja EMUNAH</h1>
+<p>Um lugar de fé, amor e transformação</p>
+<a href="#cultos">Ver Cultos</a>
+</div>
+</header>
+
+<nav id="nav">
+<a href="#sobre">Sobre</a>
+<a href="#cultos">Cultos</a>
+<a href="#galeria">Galeria</a>
+<a href="#oracao">Oração</a>
+</nav>
+
+<section id="sobre" class="section">
+<h2>Sobre a Igreja</h2>
+<p>A Igreja EMUNAH é um lugar de acolhimento e palavra de Deus.</p>
+</section>
+
+<section id="cultos" class="section">
+<h2>Cultos</h2>
+<div class="grid">
+<div class="card"><img src="img/culto1.jpg"><p>Terça - 20h</p></div>
+<div class="card"><img src="img/culto2.jpg"><p>Quarta - 20h</p></div>
+<div class="card"><img src="img/culto3.jpg"><p>Quinta</p></div>
+</div>
+</section>
+
+<section id="galeria" class="section">
+<h2>Galeria</h2>
+<div class="grid">
+<div class="card"><img src="img/foto1.jpg"></div>
+<div class="card"><img src="img/foto2.jpg"></div>
+<div class="card"><img src="img/foto3.jpg"></div>
+</div>
+</section>
+
+<section id="oracao" class="section">
+<h2>Pedido de Oração</h2>
+<input id="nome" placeholder="Nome">
+<textarea id="msg" placeholder="Pedido"></textarea>
+<button onclick="enviar()">Enviar WhatsApp</button>
+</section>
+
+<footer>
+<p>© Igreja EMUNAH</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
